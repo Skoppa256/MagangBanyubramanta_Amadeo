@@ -1,0 +1,78 @@
+[0.045s] Invoking command in '/home/raurus/Documents/Magang_Banyu/ros2/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/raurus/Documents/Magang_Banyu/ros2/build/controller -- -j4 -l4
+[0.095s] [  3%] Built target controller__cpp
+[0.095s] [ 12%] Built target controller__rosidl_generator_c
+[0.105s] [ 12%] Built target ament_cmake_python_copy_controller
+[0.120s] [ 21%] Built target controller__rosidl_typesupport_introspection_c
+[0.123s] [ 30%] Built target controller__rosidl_typesupport_fastrtps_c
+[0.127s] [ 39%] Built target controller__rosidl_typesupport_fastrtps_cpp
+[0.143s] [ 48%] Built target controller__rosidl_typesupport_c
+[0.147s] [ 57%] Built target controller__rosidl_typesupport_introspection_cpp
+[0.156s] [ 66%] Built target controller__rosidl_typesupport_cpp
+[0.173s] [ 69%] [32mBuilding CXX object CMakeFiles/pub_controller.dir/src/publisher_controller_function.cpp.o[0m
+[0.173s] [ 69%] Built target controller
+[0.192s] [ 72%] Built target controller__py
+[0.210s] [ 75%] [32mBuilding C object CMakeFiles/controller__rosidl_generator_py.dir/rosidl_generator_py/controller/msg/_motion_s.c.o[0m
+[0.273s] running egg_info
+[0.273s] writing controller.egg-info/PKG-INFO
+[0.273s] writing dependency_links to controller.egg-info/dependency_links.txt
+[0.273s] writing top-level names to controller.egg-info/top_level.txt
+[0.275s] reading manifest file 'controller.egg-info/SOURCES.txt'
+[0.276s] writing manifest file 'controller.egg-info/SOURCES.txt'
+[0.295s] [ 75%] Built target ament_cmake_python_build_controller_egg
+[0.317s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/controller/libcontroller__rosidl_generator_py.so[0m
+[0.361s] [ 78%] Built target controller__rosidl_generator_py
+[0.395s] [ 81%] [32mBuilding C object CMakeFiles/controller__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/controller/_controller_s.ep.rosidl_typesupport_c.c.o[0m
+[0.404s] [ 84%] [32mBuilding C object CMakeFiles/controller__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/controller/_controller_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[0.469s] [ 87%] [32mBuilding C object CMakeFiles/controller__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/controller/_controller_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[0.482s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/controller/controller_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[0.490s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/controller/controller_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[0.536s] [ 93%] Built target controller__rosidl_typesupport_introspection_c__pyext
+[0.549s] [ 93%] Built target controller__rosidl_typesupport_c__pyext
+[0.553s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/controller/controller_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[0.580s] [ 96%] Built target controller__rosidl_typesupport_fastrtps_c__pyext
+[1.866s] [01m[K/home/raurus/Documents/Magang_Banyu/ros2/src/controller/src/publisher_controller_function.cpp:8:36:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ is not a namespace-name
+[1.866s]     8 | using namespace std::placeholders::[01;31m[K_1[m[K;
+[1.866s]       |                                    [01;31m[K^~[m[K
+[1.868s] [01m[K/home/raurus/Documents/Magang_Banyu/ros2/src/controller/src/publisher_controller_function.cpp:58:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoy[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’; did you mean ‘[01m[KJoy[m[K’?
+[1.868s]    58 |   rclcpp::Subscription<sensor_msgs::msg::[01;31m[Kjoy[m[K>::SharedPtr subscriber_;
+[1.868s]       |                                          [01;31m[K^~~[m[K
+[1.868s]       |                                          [32m[KJoy[m[K
+[1.869s] [01m[K/home/raurus/Documents/Magang_Banyu/ros2/src/controller/src/publisher_controller_function.cpp:58:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.869s]    58 |   rclcpp::Subscription<sensor_msgs::msg::joy[01;31m[K>[m[K::SharedPtr subscriber_;
+[1.869s]       |                                             [01;31m[K^[m[K
+[1.869s] [01m[K/home/raurus/Documents/Magang_Banyu/ros2/src/controller/src/publisher_controller_function.cpp:58:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[1.869s] [01m[K/home/raurus/Documents/Magang_Banyu/ros2/src/controller/src/publisher_controller_function.cpp:58:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[1.869s] [01m[K/home/raurus/Documents/Magang_Banyu/ros2/src/controller/src/publisher_controller_function.cpp:58:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[1.869s] [01m[K/home/raurus/Documents/Magang_Banyu/ros2/src/controller/src/publisher_controller_function.cpp:58:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[1.869s]    58 |   rclcpp::Subscription<sensor_msgs::msg::joy>::[01;31m[KSharedPtr[m[K subscriber_;
+[1.869s]       |                                                [01;31m[K^~~~~~~~~[m[K
+[1.869s]       |                                                         [32m[K;[m[K
+[1.871s] [01m[K/home/raurus/Documents/Magang_Banyu/ros2/src/controller/src/publisher_controller_function.cpp:58:58:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscriber_[m[K’ does not name a type
+[1.871s]    58 |   rclcpp::Subscription<sensor_msgs::msg::joy>::SharedPtr [01;31m[Ksubscriber_[m[K;
+[1.871s]       |                                                          [01;31m[K^~~~~~~~~~~[m[K
+[1.878s] [01m[K/home/raurus/Documents/Magang_Banyu/ros2/src/controller/src/publisher_controller_function.cpp:[m[K In constructor ‘[01m[KController::Controller()[m[K’:
+[1.878s] [01m[K/home/raurus/Documents/Magang_Banyu/ros2/src/controller/src/publisher_controller_function.cpp:42:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscriber_[m[K’ was not declared in this scope
+[1.878s]    42 |     [01;31m[Ksubscriber_[m[K = this->create_subscription<sensor_msgs::msg::Joy>("joy", 10, std::bind(&Controller::topic_callback, this, _1));
+[1.878s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.878s] [01m[K/home/raurus/Documents/Magang_Banyu/ros2/src/controller/src/publisher_controller_function.cpp:42:124:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+[1.878s]    42 |     subscriber_ = this->create_subscription<sensor_msgs::msg::Joy>("joy", 10, std::bind(&Controller::topic_callback, this, [01;31m[K_1[m[K));
+[1.878s]       |                                                                                                                            [01;31m[K^~[m[K
+[1.878s]       |                                                                                                                            [32m[Kstd::placeholders::_1[m[K
+[1.878s] In file included from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[1.878s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[1.878s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[1.878s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.878s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.878s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.878s]                  from [01m[K/home/raurus/Documents/Magang_Banyu/ros2/src/controller/src/publisher_controller_function.cpp:4[m[K:
+[1.878s] [01m[K/usr/include/c++/11/functional:225:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+[1.879s]   225 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+[1.879s]       |                                  [01;36m[K^~[m[K
+[1.879s] [01m[K/home/raurus/Documents/Magang_Banyu/ros2/src/controller/src/publisher_controller_function.cpp:[m[K At global scope:
+[1.879s] [01m[K/home/raurus/Documents/Magang_Banyu/ros2/src/controller/src/publisher_controller_function.cpp:24:1:[m[K [01;31m[Kerror: [m[Kmultiple types in one declaration
+[1.879s]    24 | [01;31m[Kenum[m[K Axes{
+[1.879s]       | [01;31m[K^~~~[m[K
+[2.429s] gmake[2]: *** [CMakeFiles/pub_controller.dir/build.make:76: CMakeFiles/pub_controller.dir/src/publisher_controller_function.cpp.o] Error 1
+[2.429s] gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/pub_controller.dir/all] Error 2
+[2.431s] gmake: *** [Makefile:146: all] Error 2
+[2.433s] Invoked command in '/home/raurus/Documents/Magang_Banyu/ros2/build/controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/raurus/Documents/Magang_Banyu/ros2/build/controller -- -j4 -l4

@@ -1,0 +1,49 @@
+[  3%] Built target controller__cpp
+[ 12%] Built target controller__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_copy_controller
+[ 21%] Built target controller__rosidl_typesupport_introspection_cpp
+[ 30%] Built target controller__rosidl_typesupport_cpp
+[ 39%] Built target controller__rosidl_typesupport_fastrtps_cpp
+[ 48%] Built target controller__rosidl_typesupport_fastrtps_c
+[ 57%] Built target controller__rosidl_typesupport_introspection_c
+[ 66%] Built target controller__rosidl_typesupport_c
+[35m[1mConsolidate compiler generated dependencies of target pub_controller[0m
+[ 66%] Built target controller
+[ 72%] Built target controller__py
+[ 72%] [32mBuilding CXX object CMakeFiles/pub_controller.dir/src/publisher_controller_function.cpp.o[0m
+[ 78%] Built target controller__rosidl_generator_py
+[ 84%] Built target controller__rosidl_typesupport_fastrtps_c__pyext
+[ 90%] Built target controller__rosidl_typesupport_introspection_c__pyext
+[ 96%] Built target controller__rosidl_typesupport_c__pyext
+running egg_info
+writing controller.egg-info/PKG-INFO
+writing dependency_links to controller.egg-info/dependency_links.txt
+writing top-level names to controller.egg-info/top_level.txt
+reading manifest file 'controller.egg-info/SOURCES.txt'
+writing manifest file 'controller.egg-info/SOURCES.txt'
+[ 96%] Built target ament_cmake_python_build_controller_egg
+[01m[K/home/raurus/Documents/Magang_Banyu/ros2/src/controller/src/publisher_controller_function.cpp:10:36:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ is not a namespace-name
+   10 | using namespace std::placeholders::[01;31m[K_1[m[K;
+      |                                    [01;31m[K^~[m[K
+[01m[K/home/raurus/Documents/Magang_Banyu/ros2/src/controller/src/publisher_controller_function.cpp:[m[K In constructor ‘[01m[KController::Controller()[m[K’:
+[01m[K/home/raurus/Documents/Magang_Banyu/ros2/src/controller/src/publisher_controller_function.cpp:44:124:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+   44 |     subscriber_ = this->create_subscription<sensor_msgs::msg::Joy>("joy", 10, std::bind(&Controller::topic_callback, this, [01;31m[K_1[m[K));
+      |                                                                                                                            [01;31m[K^~[m[K
+      |                                                                                                                            [32m[Kstd::placeholders::_1[m[K
+In file included from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/raurus/Documents/Magang_Banyu/ros2/src/controller/src/publisher_controller_function.cpp:6[m[K:
+[01m[K/usr/include/c++/11/functional:225:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+  225 |     extern const _Placeholder<1> [01;36m[K_1[m[K;
+      |                                  [01;36m[K^~[m[K
+[01m[K/home/raurus/Documents/Magang_Banyu/ros2/src/controller/src/publisher_controller_function.cpp:[m[K At global scope:
+[01m[K/home/raurus/Documents/Magang_Banyu/ros2/src/controller/src/publisher_controller_function.cpp:26:1:[m[K [01;31m[Kerror: [m[Kmultiple types in one declaration
+   26 | [01;31m[Kenum[m[K Axes{
+      | [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/pub_controller.dir/build.make:76: CMakeFiles/pub_controller.dir/src/publisher_controller_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/pub_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

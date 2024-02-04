@@ -1,0 +1,228 @@
+[0.000000] (-) TimerEvent: {}
+[0.000256] (controller) JobQueued: {'identifier': 'controller', 'dependencies': OrderedDict()}
+[0.000292] (controller) JobStarted: {'identifier': 'controller'}
+[0.031774] (controller) JobProgress: {'identifier': 'controller', 'progress': 'cmake'}
+[0.032734] (controller) JobProgress: {'identifier': 'controller', 'progress': 'build'}
+[0.032995] (controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/raurus/Documents/Magang_Banyu/ros2/build/controller', '--', '-j4', '-l4'], 'cwd': '/home/raurus/Documents/Magang_Banyu/ros2/build/controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'raurus'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/raurus'), ('OLDPWD', '/home/raurus/Documents/Magang_Banyu/ros2/src/controller'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1907'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/raurus/Documents/ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'raurus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'raurus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raurus-ubuntu:@/tmp/.ICE-unix/1875,unix/raurus-ubuntu:/tmp/.ICE-unix/1875'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/00bea81c_bf5c_41b2_b5e1_8cec83ed1dd9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5U8DI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.152'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/raurus/Documents/ros2/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/raurus/Documents/Magang_Banyu/ros2/build/controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/raurus/Documents/ros2/install/cpp_pubsub:/opt/ros/humble')]), 'shell': False}
+[0.084184] (controller) StdoutLine: {'line': b'[  3%] Built target controller__cpp\n'}
+[0.084591] (controller) StdoutLine: {'line': b'[ 12%] Built target controller__rosidl_generator_c\n'}
+[0.090606] (controller) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_controller\n'}
+[0.099508] (-) TimerEvent: {}
+[0.105812] (controller) StdoutLine: {'line': b'[ 21%] Built target controller__rosidl_typesupport_cpp\n'}
+[0.108603] (controller) StdoutLine: {'line': b'[ 30%] Built target controller__rosidl_typesupport_introspection_c\n'}
+[0.108915] (controller) StdoutLine: {'line': b'[ 39%] Built target controller__rosidl_typesupport_c\n'}
+[0.110238] (controller) StdoutLine: {'line': b'[ 48%] Built target controller__rosidl_typesupport_fastrtps_cpp\n'}
+[0.125998] (controller) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target pub_controller\x1b[0m\n'}
+[0.135933] (controller) StdoutLine: {'line': b'[ 57%] Built target controller__rosidl_typesupport_introspection_cpp\n'}
+[0.140087] (controller) StdoutLine: {'line': b'[ 66%] Built target controller__rosidl_typesupport_fastrtps_c\n'}
+[0.147719] (controller) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/pub_controller.dir/src/publisher_controller_function.cpp.o\x1b[0m\n'}
+[0.157883] (controller) StdoutLine: {'line': b'[ 69%] Built target controller\n'}
+[0.175280] (controller) StdoutLine: {'line': b'[ 72%] Built target controller__py\n'}
+[0.197712] (controller) StdoutLine: {'line': b'[ 78%] Built target controller__rosidl_generator_py\n'}
+[0.199589] (-) TimerEvent: {}
+[0.221344] (controller) StdoutLine: {'line': b'[ 84%] Built target controller__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.224247] (controller) StdoutLine: {'line': b'[ 90%] Built target controller__rosidl_typesupport_introspection_c__pyext\n'}
+[0.278163] (controller) StdoutLine: {'line': b'running egg_info\n'}
+[0.278920] (controller) StdoutLine: {'line': b'writing controller.egg-info/PKG-INFO\n'}
+[0.279064] (controller) StdoutLine: {'line': b'[ 96%] Built target controller__rosidl_typesupport_c__pyext\n'}
+[0.279128] (controller) StdoutLine: {'line': b'writing dependency_links to controller.egg-info/dependency_links.txt\n'}
+[0.279176] (controller) StdoutLine: {'line': b'writing top-level names to controller.egg-info/top_level.txt\n'}
+[0.280373] (controller) StdoutLine: {'line': b"reading manifest file 'controller.egg-info/SOURCES.txt'\n"}
+[0.280654] (controller) StdoutLine: {'line': b"writing manifest file 'controller.egg-info/SOURCES.txt'\n"}
+[0.298444] (controller) StdoutLine: {'line': b'[ 96%] Built target ament_cmake_python_build_controller_egg\n'}
+[0.299663] (-) TimerEvent: {}
+[0.399934] (-) TimerEvent: {}
+[0.500234] (-) TimerEvent: {}
+[0.600551] (-) TimerEvent: {}
+[0.701341] (-) TimerEvent: {}
+[0.802958] (-) TimerEvent: {}
+[0.903754] (-) TimerEvent: {}
+[1.004223] (-) TimerEvent: {}
+[1.104496] (-) TimerEvent: {}
+[1.206275] (-) TimerEvent: {}
+[1.307260] (-) TimerEvent: {}
+[1.409065] (-) TimerEvent: {}
+[1.509943] (-) TimerEvent: {}
+[1.610217] (-) TimerEvent: {}
+[1.711141] (-) TimerEvent: {}
+[1.811445] (-) TimerEvent: {}
+[1.913974] (-) TimerEvent: {}
+[2.015008] (-) TimerEvent: {}
+[2.117127] (-) TimerEvent: {}
+[2.219478] (-) TimerEvent: {}
+[2.319963] (-) TimerEvent: {}
+[2.422457] (-) TimerEvent: {}
+[2.523202] (-) TimerEvent: {}
+[2.623951] (-) TimerEvent: {}
+[2.724314] (-) TimerEvent: {}
+[2.824803] (-) TimerEvent: {}
+[2.925118] (-) TimerEvent: {}
+[3.025407] (-) TimerEvent: {}
+[3.125705] (-) TimerEvent: {}
+[3.226060] (-) TimerEvent: {}
+[3.326330] (-) TimerEvent: {}
+[3.426685] (-) TimerEvent: {}
+[3.528173] (-) TimerEvent: {}
+[3.628456] (-) TimerEvent: {}
+[3.728738] (-) TimerEvent: {}
+[3.829993] (-) TimerEvent: {}
+[3.930466] (-) TimerEvent: {}
+[4.032025] (-) TimerEvent: {}
+[4.132296] (-) TimerEvent: {}
+[4.234360] (-) TimerEvent: {}
+[4.335197] (-) TimerEvent: {}
+[4.435484] (-) TimerEvent: {}
+[4.535752] (-) TimerEvent: {}
+[4.636043] (-) TimerEvent: {}
+[4.736365] (-) TimerEvent: {}
+[4.836750] (-) TimerEvent: {}
+[4.937646] (-) TimerEvent: {}
+[5.039578] (-) TimerEvent: {}
+[5.140895] (-) TimerEvent: {}
+[5.241281] (-) TimerEvent: {}
+[5.248131] (controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pub_controller\x1b[0m\n'}
+[5.341402] (-) TimerEvent: {}
+[5.441733] (-) TimerEvent: {}
+[5.542602] (-) TimerEvent: {}
+[5.600328] (controller) StdoutLine: {'line': b'[100%] Built target pub_controller\n'}
+[5.612352] (controller) CommandEnded: {'returncode': 0}
+[5.642725] (-) TimerEvent: {}
+[5.665820] (controller) JobProgress: {'identifier': 'controller', 'progress': 'install'}
+[5.674040] (controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/raurus/Documents/Magang_Banyu/ros2/build/controller'], 'cwd': '/home/raurus/Documents/Magang_Banyu/ros2/build/controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'raurus'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/raurus'), ('OLDPWD', '/home/raurus/Documents/Magang_Banyu/ros2/src/controller'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1907'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/raurus/Documents/ros2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'raurus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'raurus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raurus-ubuntu:@/tmp/.ICE-unix/1875,unix/raurus-ubuntu:/tmp/.ICE-unix/1875'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/00bea81c_bf5c_41b2_b5e1_8cec83ed1dd9'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5U8DI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.152'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/raurus/Documents/ros2/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/raurus/Documents/Magang_Banyu/ros2/build/controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/raurus/Documents/ros2/install/cpp_pubsub:/opt/ros/humble')]), 'shell': False}
+[5.683750] (controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.684256] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/ament_index/resource_index/rosidl_interfaces/controller\n'}
+[5.684721] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller\n'}
+[5.684937] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg\n'}
+[5.685018] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/motion.h\n'}
+[5.685225] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.685541] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail\n'}
+[5.685722] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__functions.h\n'}
+[5.686097] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__struct.h\n'}
+[5.686328] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__functions.c\n'}
+[5.686462] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__type_support.h\n'}
+[5.686574] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/environment/library_path.sh\n'}
+[5.687338] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/environment/library_path.dsv\n'}
+[5.687564] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_generator_c.so\n'}
+[5.688327] (controller) StdoutLine: {'line': b'-- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_generator_c.so" to ""\n'}
+[5.688456] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller\n'}
+[5.688554] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg\n'}
+[5.688634] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail\n'}
+[5.688703] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__rosidl_typesupport_fastrtps_c.h\n'}
+[5.688827] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.689286] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_typesupport_fastrtps_c.so\n'}
+[5.689462] (controller) StdoutLine: {'line': b'-- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.689649] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller\n'}
+[5.689788] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg\n'}
+[5.689983] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/motion.hpp\n'}
+[5.690034] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail\n'}
+[5.690067] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__traits.hpp\n'}
+[5.690100] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__builder.hpp\n'}
+[5.690134] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__struct.hpp\n'}
+[5.690321] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller\n'}
+[5.690416] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg\n'}
+[5.690554] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.690593] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail\n'}
+[5.690651] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.690684] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/dds_fastrtps\n'}
+[5.690719] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.691228] (controller) StdoutLine: {'line': b'-- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.691280] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller\n'}
+[5.691383] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg\n'}
+[5.691433] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail\n'}
+[5.691468] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__type_support.c\n'}
+[5.691571] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__rosidl_typesupport_introspection_c.h\n'}
+[5.691766] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.692066] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_typesupport_introspection_c.so\n'}
+[5.692341] (controller) StdoutLine: {'line': b'-- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.692493] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_typesupport_c.so\n'}
+[5.692677] (controller) StdoutLine: {'line': b'-- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_typesupport_c.so" to ""\n'}
+[5.692878] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller\n'}
+[5.692942] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg\n'}
+[5.692992] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail\n'}
+[5.693023] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.693198] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__type_support.cpp\n'}
+[5.693392] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_typesupport_introspection_cpp.so\n'}
+[5.693942] (controller) StdoutLine: {'line': b'-- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.694007] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_typesupport_cpp.so\n'}
+[5.694238] (controller) StdoutLine: {'line': b'-- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_typesupport_cpp.so" to ""\n'}
+[5.694306] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/environment/pythonpath.sh\n'}
+[5.694570] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/environment/pythonpath.dsv\n'}
+[5.694874] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info\n'}
+[5.694977] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[5.695053] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[5.695190] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[5.695311] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[5.695388] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller\n'}
+[5.695454] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[5.695518] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/_controller_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.695625] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[5.695686] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/_controller_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.695755] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/_controller_s.ep.rosidl_typesupport_c.c\n'}
+[5.695851] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/msg\n'}
+[5.695936] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/msg/_motion.py\n'}
+[5.696035] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/msg/_motion_s.c\n'}
+[5.696071] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/msg/__init__.py\n'}
+[5.696126] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/libcontroller__rosidl_generator_py.so\n'}
+[5.696167] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[5.696213] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/__init__.py\n'}
+[5.719876] (controller) StdoutLine: {'line': b"Listing '/home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller'...\n"}
+[5.720024] (controller) StdoutLine: {'line': b"Compiling '/home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/__init__.py'...\n"}
+[5.720079] (controller) StdoutLine: {'line': b"Listing '/home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/msg'...\n"}
+[5.720128] (controller) StdoutLine: {'line': b"Compiling '/home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/msg/__init__.py'...\n"}
+[5.720211] (controller) StdoutLine: {'line': b"Compiling '/home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/msg/_motion.py'...\n"}
+[5.722945] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[5.723080] (controller) StdoutLine: {'line': b'-- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[5.723204] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[5.723374] (controller) StdoutLine: {'line': b'-- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[5.723476] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[5.723628] (controller) StdoutLine: {'line': b'-- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[5.723707] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_generator_py.so\n'}
+[5.723871] (controller) StdoutLine: {'line': b'-- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_generator_py.so" to ""\n'}
+[5.724027] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/msg/Motion.idl\n'}
+[5.724411] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/msg/Motion.msg\n'}
+[5.724769] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/controller/pub_controller\n'}
+[5.727149] (controller) StdoutLine: {'line': b'-- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/controller/pub_controller" to ""\n'}
+[5.727394] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/ament_index/resource_index/package_run_dependencies/controller\n'}
+[5.727603] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/ament_index/resource_index/parent_prefix_path/controller\n'}
+[5.727835] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/environment/ament_prefix_path.sh\n'}
+[5.727988] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/environment/ament_prefix_path.dsv\n'}
+[5.728180] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/environment/path.sh\n'}
+[5.728590] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/environment/path.dsv\n'}
+[5.728952] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/local_setup.bash\n'}
+[5.729241] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/local_setup.sh\n'}
+[5.729386] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/local_setup.zsh\n'}
+[5.729677] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/local_setup.dsv\n'}
+[5.729875] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/package.dsv\n'}
+[5.730244] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/ament_index/resource_index/packages/controller\n'}
+[5.730304] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/export_controller__rosidl_generator_cExport.cmake\n'}
+[5.730732] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/export_controller__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.730902] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/export_controller__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.731232] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/export_controller__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.731496] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/export_controller__rosidl_generator_cppExport.cmake\n'}
+[5.731689] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/export_controller__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.732079] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/export_controller__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.732299] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/controller__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.732699] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/controller__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.732965] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/controller__rosidl_typesupport_cExport.cmake\n'}
+[5.733141] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/controller__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.733381] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/controller__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.733622] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/controller__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.733899] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/controller__rosidl_typesupport_cppExport.cmake\n'}
+[5.734083] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/controller__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.734431] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/export_controller__rosidl_generator_pyExport.cmake\n'}
+[5.734707] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/export_controller__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.734886] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/rosidl_cmake-extras.cmake\n'}
+[5.735209] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.735717] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.736107] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.736364] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.736579] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.736925] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.737073] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/controllerConfig.cmake\n'}
+[5.737161] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/controllerConfig-version.cmake\n'}
+[5.737275] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/package.xml\n'}
+[5.740037] (controller) CommandEnded: {'returncode': 0}
+[5.742796] (-) TimerEvent: {}
+[5.843212] (-) TimerEvent: {}
+[5.874915] (controller) JobEnded: {'identifier': 'controller', 'rc': 0}
+[5.875751] (-) EventReactorShutdown: {}

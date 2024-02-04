@@ -1,0 +1,162 @@
+[0.035s] Invoking command in '/home/raurus/Documents/Magang_Banyu/ros2/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/raurus/Documents/Magang_Banyu/ros2/build/controller -- -j4 -l4
+[0.084s] [  3%] Built target controller__cpp
+[0.084s] [ 12%] Built target controller__rosidl_generator_c
+[0.091s] [ 12%] Built target ament_cmake_python_copy_controller
+[0.106s] [ 21%] Built target controller__rosidl_typesupport_cpp
+[0.108s] [ 30%] Built target controller__rosidl_typesupport_introspection_c
+[0.109s] [ 39%] Built target controller__rosidl_typesupport_c
+[0.110s] [ 48%] Built target controller__rosidl_typesupport_fastrtps_cpp
+[0.126s] [35m[1mConsolidate compiler generated dependencies of target pub_controller[0m
+[0.136s] [ 57%] Built target controller__rosidl_typesupport_introspection_cpp
+[0.140s] [ 66%] Built target controller__rosidl_typesupport_fastrtps_c
+[0.148s] [ 69%] [32mBuilding CXX object CMakeFiles/pub_controller.dir/src/publisher_controller_function.cpp.o[0m
+[0.158s] [ 69%] Built target controller
+[0.175s] [ 72%] Built target controller__py
+[0.197s] [ 78%] Built target controller__rosidl_generator_py
+[0.221s] [ 84%] Built target controller__rosidl_typesupport_fastrtps_c__pyext
+[0.224s] [ 90%] Built target controller__rosidl_typesupport_introspection_c__pyext
+[0.278s] running egg_info
+[0.279s] writing controller.egg-info/PKG-INFO
+[0.279s] [ 96%] Built target controller__rosidl_typesupport_c__pyext
+[0.279s] writing dependency_links to controller.egg-info/dependency_links.txt
+[0.279s] writing top-level names to controller.egg-info/top_level.txt
+[0.280s] reading manifest file 'controller.egg-info/SOURCES.txt'
+[0.280s] writing manifest file 'controller.egg-info/SOURCES.txt'
+[0.298s] [ 96%] Built target ament_cmake_python_build_controller_egg
+[5.248s] [100%] [32m[1mLinking CXX executable pub_controller[0m
+[5.600s] [100%] Built target pub_controller
+[5.612s] Invoked command in '/home/raurus/Documents/Magang_Banyu/ros2/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/raurus/Documents/Magang_Banyu/ros2/build/controller -- -j4 -l4
+[5.674s] Invoking command in '/home/raurus/Documents/Magang_Banyu/ros2/build/controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/raurus/Documents/Magang_Banyu/ros2/build/controller
+[5.684s] -- Install configuration: ""
+[5.684s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/ament_index/resource_index/rosidl_interfaces/controller
+[5.685s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller
+[5.685s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg
+[5.685s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/motion.h
+[5.685s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/rosidl_generator_c__visibility_control.h
+[5.685s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail
+[5.685s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__functions.h
+[5.686s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__struct.h
+[5.686s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__functions.c
+[5.686s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__type_support.h
+[5.686s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/environment/library_path.sh
+[5.687s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/environment/library_path.dsv
+[5.687s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_generator_c.so
+[5.688s] -- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_generator_c.so" to ""
+[5.688s] -- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller
+[5.688s] -- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg
+[5.688s] -- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail
+[5.688s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__rosidl_typesupport_fastrtps_c.h
+[5.689s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.689s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_typesupport_fastrtps_c.so
+[5.689s] -- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_typesupport_fastrtps_c.so" to ""
+[5.689s] -- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller
+[5.690s] -- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg
+[5.690s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/motion.hpp
+[5.690s] -- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail
+[5.690s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__traits.hpp
+[5.690s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__builder.hpp
+[5.690s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__struct.hpp
+[5.690s] -- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller
+[5.690s] -- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg
+[5.690s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.690s] -- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail
+[5.690s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__rosidl_typesupport_fastrtps_cpp.hpp
+[5.690s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/dds_fastrtps
+[5.690s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_typesupport_fastrtps_cpp.so
+[5.691s] -- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.691s] -- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller
+[5.691s] -- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg
+[5.691s] -- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail
+[5.691s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__type_support.c
+[5.691s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__rosidl_typesupport_introspection_c.h
+[5.692s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.692s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_typesupport_introspection_c.so
+[5.692s] -- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_typesupport_introspection_c.so" to ""
+[5.692s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_typesupport_c.so
+[5.692s] -- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_typesupport_c.so" to ""
+[5.693s] -- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller
+[5.693s] -- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg
+[5.693s] -- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail
+[5.693s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__rosidl_typesupport_introspection_cpp.hpp
+[5.693s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__type_support.cpp
+[5.693s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_typesupport_introspection_cpp.so
+[5.694s] -- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_typesupport_introspection_cpp.so" to ""
+[5.694s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_typesupport_cpp.so
+[5.694s] -- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_typesupport_cpp.so" to ""
+[5.694s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/environment/pythonpath.sh
+[5.694s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/environment/pythonpath.dsv
+[5.695s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info
+[5.695s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.695s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info/PKG-INFO
+[5.695s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.695s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info/top_level.txt
+[5.695s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller
+[5.695s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[5.695s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/_controller_s.ep.rosidl_typesupport_introspection_c.c
+[5.695s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[5.695s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/_controller_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.696s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/_controller_s.ep.rosidl_typesupport_c.c
+[5.696s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/msg
+[5.696s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/msg/_motion.py
+[5.696s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/msg/_motion_s.c
+[5.696s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/msg/__init__.py
+[5.696s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/libcontroller__rosidl_generator_py.so
+[5.696s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[5.696s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/__init__.py
+[5.720s] Listing '/home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller'...
+[5.720s] Compiling '/home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/__init__.py'...
+[5.720s] Listing '/home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/msg'...
+[5.720s] Compiling '/home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/msg/__init__.py'...
+[5.720s] Compiling '/home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/msg/_motion.py'...
+[5.723s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[5.723s] -- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[5.723s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[5.723s] -- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[5.723s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[5.723s] -- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[5.723s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_generator_py.so
+[5.724s] -- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_generator_py.so" to ""
+[5.724s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/msg/Motion.idl
+[5.724s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/msg/Motion.msg
+[5.725s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/controller/pub_controller
+[5.727s] -- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/controller/pub_controller" to ""
+[5.727s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/ament_index/resource_index/package_run_dependencies/controller
+[5.727s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/ament_index/resource_index/parent_prefix_path/controller
+[5.728s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/environment/ament_prefix_path.sh
+[5.728s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/environment/ament_prefix_path.dsv
+[5.728s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/environment/path.sh
+[5.728s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/environment/path.dsv
+[5.729s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/local_setup.bash
+[5.729s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/local_setup.sh
+[5.729s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/local_setup.zsh
+[5.729s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/local_setup.dsv
+[5.730s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/package.dsv
+[5.730s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/ament_index/resource_index/packages/controller
+[5.730s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/export_controller__rosidl_generator_cExport.cmake
+[5.730s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/export_controller__rosidl_generator_cExport-noconfig.cmake
+[5.731s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/export_controller__rosidl_typesupport_fastrtps_cExport.cmake
+[5.731s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/export_controller__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.731s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/export_controller__rosidl_generator_cppExport.cmake
+[5.731s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/export_controller__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.732s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/export_controller__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.732s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/controller__rosidl_typesupport_introspection_cExport.cmake
+[5.732s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/controller__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.733s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/controller__rosidl_typesupport_cExport.cmake
+[5.733s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/controller__rosidl_typesupport_cExport-noconfig.cmake
+[5.733s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/controller__rosidl_typesupport_introspection_cppExport.cmake
+[5.733s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/controller__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.734s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/controller__rosidl_typesupport_cppExport.cmake
+[5.734s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/controller__rosidl_typesupport_cppExport-noconfig.cmake
+[5.734s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/export_controller__rosidl_generator_pyExport.cmake
+[5.734s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/export_controller__rosidl_generator_pyExport-noconfig.cmake
+[5.735s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/rosidl_cmake-extras.cmake
+[5.735s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.735s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/ament_cmake_export_libraries-extras.cmake
+[5.736s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/ament_cmake_export_targets-extras.cmake
+[5.736s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.736s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.737s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.737s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/controllerConfig.cmake
+[5.737s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/controllerConfig-version.cmake
+[5.737s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/package.xml
+[5.740s] Invoked command in '/home/raurus/Documents/Magang_Banyu/ros2/build/controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/raurus/Documents/Magang_Banyu/ros2/build/controller

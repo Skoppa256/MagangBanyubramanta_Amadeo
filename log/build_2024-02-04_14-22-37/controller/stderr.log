@@ -1,0 +1,6 @@
+[01m[K/home/raurus/Documents/Magang_Banyu/ros2/src/controller/src/publisher_controller_function.cpp:26:1:[m[K [01;31m[Kerror: [m[Kmultiple types in one declaration
+   26 | [01;31m[Kenum[m[K Axes{
+      | [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/pub_controller.dir/build.make:76: CMakeFiles/pub_controller.dir/src/publisher_controller_function.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:593: CMakeFiles/pub_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
