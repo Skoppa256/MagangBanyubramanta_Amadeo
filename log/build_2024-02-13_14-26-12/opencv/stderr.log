@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:43 (terget_link_libraries):
+  Unknown CMake command "terget_link_libraries".
+
+[0m

@@ -1,0 +1,6 @@
+Invoking command in '/home/raurus/Documents/Magang_Banyu/ros2/build/opencv': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/raurus/Documents/Magang_Banyu/ros2/src/opencv -DCMAKE_INSTALL_PREFIX=/home/raurus/Documents/Magang_Banyu/ros2/install/opencv
+Invoked command in '/home/raurus/Documents/Magang_Banyu/ros2/build/opencv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/raurus/Documents/Magang_Banyu/ros2/src/opencv -DCMAKE_INSTALL_PREFIX=/home/raurus/Documents/Magang_Banyu/ros2/install/opencv
+Invoking command in '/home/raurus/Documents/Magang_Banyu/ros2/build/opencv': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/raurus/Documents/Magang_Banyu/ros2/build/opencv -- -j4 -l4
+Invoked command in '/home/raurus/Documents/Magang_Banyu/ros2/build/opencv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/raurus/Documents/Magang_Banyu/ros2/build/opencv -- -j4 -l4
+Invoking command in '/home/raurus/Documents/Magang_Banyu/ros2/build/opencv': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/raurus/Documents/Magang_Banyu/ros2/build/opencv
+Invoked command in '/home/raurus/Documents/Magang_Banyu/ros2/build/opencv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/raurus/Documents/Magang_Banyu/ros2/build/opencv

@@ -1,0 +1,6 @@
+setup.py
+opencv/__init__.py
+opencv.egg-info/PKG-INFO
+opencv.egg-info/SOURCES.txt
+opencv.egg-info/dependency_links.txt
+opencv.egg-info/top_level.txt

@@ -1,0 +1,6 @@
+{
+  "package_name": "opencv",
+  "non_idl_tuples": [
+    "/home/raurus/Documents/Magang_Banyu/ros2/src/opencv:msg/Detection.msg"
+  ]
+}

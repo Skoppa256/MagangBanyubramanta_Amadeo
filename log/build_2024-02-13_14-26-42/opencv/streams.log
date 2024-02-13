@@ -1,0 +1,225 @@
+[0.039s] Invoking command in '/home/raurus/Documents/Magang_Banyu/ros2/build/opencv': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/raurus/Documents/Magang_Banyu/ros2/src/opencv -DCMAKE_INSTALL_PREFIX=/home/raurus/Documents/Magang_Banyu/ros2/install/opencv
+[0.051s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.152s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.193s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.216s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.218s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.222s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.230s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.241s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.286s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.287s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.375s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.504s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.625s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.809s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.879s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.893s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.907s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.907s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.907s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[0.921s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.921s] -- Configured cppcheck include dirs: 
+[0.921s] -- Configured cppcheck exclude dirs and/or files: 
+[0.922s] -- Added test 'lint_cmake' to check CMake code style
+[0.923s] -- Added test 'uncrustify' to check C / C++ code style
+[0.923s] -- Configured uncrustify additional arguments: 
+[0.924s] -- Added test 'xmllint' to check XML markup files
+[0.930s] -- Configuring done
+[0.954s] -- Generating done
+[0.956s] -- Build files have been written to: /home/raurus/Documents/Magang_Banyu/ros2/build/opencv
+[0.962s] Invoked command in '/home/raurus/Documents/Magang_Banyu/ros2/build/opencv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/raurus/Documents/Magang_Banyu/ros2/src/opencv -DCMAKE_INSTALL_PREFIX=/home/raurus/Documents/Magang_Banyu/ros2/install/opencv
+[0.963s] Invoking command in '/home/raurus/Documents/Magang_Banyu/ros2/build/opencv': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/raurus/Documents/Magang_Banyu/ros2/build/opencv -- -j4 -l4
+[0.983s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.988s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.992s] [  6%] Built target ament_cmake_python_copy_opencv
+[1.147s] running egg_info
+[1.148s] creating opencv.egg-info
+[1.148s] writing opencv.egg-info/PKG-INFO
+[1.148s] writing dependency_links to opencv.egg-info/dependency_links.txt
+[1.149s] writing top-level names to opencv.egg-info/top_level.txt
+[1.149s] writing manifest file 'opencv.egg-info/SOURCES.txt'
+[1.150s] reading manifest file 'opencv.egg-info/SOURCES.txt'
+[1.150s] writing manifest file 'opencv.egg-info/SOURCES.txt'
+[1.163s] [  6%] Built target opencv__cpp
+[1.168s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.182s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.186s] [ 15%] [32mBuilding C object CMakeFiles/opencv__rosidl_generator_c.dir/rosidl_generator_c/opencv/msg/detail/detection__functions.c.o[0m
+[1.186s] [ 15%] Built target ament_cmake_python_build_opencv_egg
+[1.199s] [ 18%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.286s] [ 21%] [32m[1mLinking C shared library libopencv__rosidl_generator_c.so[0m
+[1.306s] [ 24%] [32mBuilding CXX object CMakeFiles/opencv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/opencv/msg/detection__type_support.cpp.o[0m
+[1.345s] [ 24%] Built target opencv__rosidl_generator_c
+[1.351s] [ 27%] [32mBuilding CXX object CMakeFiles/opencv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/opencv/msg/detail/dds_fastrtps/detection__type_support.cpp.o[0m
+[1.358s] [ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.421s] [ 33%] [32mBuilding CXX object CMakeFiles/opencv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/opencv/msg/detail/detection__type_support.cpp.o[0m
+[1.519s] [ 36%] [32m[1mLinking CXX shared library libopencv__rosidl_typesupport_cpp.so[0m
+[1.524s] [ 39%] [32mBuilding CXX object CMakeFiles/opencv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/opencv/msg/detail/detection__type_support_c.cpp.o[0m
+[1.543s] [ 39%] Built target opencv__rosidl_typesupport_cpp
+[1.550s] [ 42%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.786s] [ 45%] [32m[1mLinking CXX shared library libopencv__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.815s] [ 48%] [32mBuilding C object CMakeFiles/opencv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/opencv/msg/detail/detection__type_support.c.o[0m
+[1.816s] [ 51%] [32m[1mLinking CXX shared library libopencv__rosidl_typesupport_introspection_cpp.so[0m
+[1.840s] [ 54%] [32m[1mLinking CXX shared library libopencv__rosidl_typesupport_fastrtps_c.so[0m
+[1.858s] [ 57%] [32m[1mLinking C shared library libopencv__rosidl_typesupport_introspection_c.so[0m
+[1.876s] [ 57%] Built target opencv__rosidl_typesupport_introspection_c
+[1.878s] [ 57%] Built target opencv__rosidl_typesupport_fastrtps_cpp
+[1.879s] [ 57%] Built target opencv__rosidl_typesupport_introspection_cpp
+[1.883s] [ 60%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.888s] [ 60%] Built target opencv__rosidl_typesupport_fastrtps_c
+[1.893s] [ 63%] [32mBuilding CXX object CMakeFiles/opencv_detection.dir/src/opencv_detection_function.cpp.o[0m
+[2.015s] [ 66%] [32mBuilding CXX object CMakeFiles/opencv__rosidl_typesupport_c.dir/rosidl_typesupport_c/opencv/msg/detection__type_support.cpp.o[0m
+[2.033s] [ 69%] [32m[1mLinking CXX shared library libopencv__rosidl_typesupport_c.so[0m
+[2.056s] [ 69%] Built target opencv__rosidl_typesupport_c
+[2.066s] [ 69%] Built target opencv
+[2.076s] [ 72%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.254s] [ 72%] Built target opencv__py
+[2.270s] [ 75%] [32mBuilding C object CMakeFiles/opencv__rosidl_generator_py.dir/rosidl_generator_py/opencv/msg/_detection_s.c.o[0m
+[2.476s] [ 78%] [32m[1mLinking C shared library rosidl_generator_py/opencv/libopencv__rosidl_generator_py.so[0m
+[2.516s] [ 78%] Built target opencv__rosidl_generator_py
+[2.532s] [ 84%] [32mBuilding C object CMakeFiles/opencv__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/opencv/_opencv_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.532s] [ 84%] [32mBuilding C object CMakeFiles/opencv__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/opencv/_opencv_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.555s] [ 87%] [32mBuilding C object CMakeFiles/opencv__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/opencv/_opencv_s.ep.rosidl_typesupport_c.c.o[0m
+[2.636s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/opencv/opencv_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[2.644s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/opencv/opencv_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[2.673s] [ 93%] Built target opencv__rosidl_typesupport_fastrtps_c__pyext
+[2.674s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/opencv/opencv_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[2.677s] [ 96%] Built target opencv__rosidl_typesupport_introspection_c__pyext
+[2.693s] [ 96%] Built target opencv__rosidl_typesupport_c__pyext
+[6.561s] [100%] [32m[1mLinking CXX executable opencv_detection[0m
+[6.999s] [100%] Built target opencv_detection
+[7.010s] Invoked command in '/home/raurus/Documents/Magang_Banyu/ros2/build/opencv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/raurus/Documents/Magang_Banyu/ros2/build/opencv -- -j4 -l4
+[7.044s] Invoking command in '/home/raurus/Documents/Magang_Banyu/ros2/build/opencv': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/raurus/Documents/Magang_Banyu/ros2/build/opencv
+[7.047s] -- Install configuration: ""
+[7.048s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/ament_index/resource_index/rosidl_interfaces/opencv
+[7.048s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv
+[7.048s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg
+[7.048s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/rosidl_generator_c__visibility_control.h
+[7.048s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detection.h
+[7.049s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail
+[7.049s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail/detection__functions.c
+[7.049s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail/detection__functions.h
+[7.049s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail/detection__type_support.h
+[7.049s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail/detection__struct.h
+[7.049s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/environment/library_path.sh
+[7.050s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/environment/library_path.dsv
+[7.050s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/libopencv__rosidl_generator_c.so
+[7.050s] -- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/libopencv__rosidl_generator_c.so" to ""
+[7.051s] -- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv
+[7.051s] -- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg
+[7.051s] -- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail
+[7.051s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail/detection__rosidl_typesupport_fastrtps_c.h
+[7.051s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.051s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/libopencv__rosidl_typesupport_fastrtps_c.so
+[7.051s] -- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/libopencv__rosidl_typesupport_fastrtps_c.so" to ""
+[7.052s] -- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv
+[7.052s] -- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg
+[7.052s] -- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail
+[7.052s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail/detection__builder.hpp
+[7.052s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail/detection__struct.hpp
+[7.052s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail/detection__traits.hpp
+[7.052s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detection.hpp
+[7.052s] -- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv
+[7.052s] -- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg
+[7.052s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.052s] -- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail
+[7.052s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail/dds_fastrtps
+[7.053s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail/detection__rosidl_typesupport_fastrtps_cpp.hpp
+[7.053s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/libopencv__rosidl_typesupport_fastrtps_cpp.so
+[7.053s] -- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/libopencv__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.053s] -- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv
+[7.053s] -- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg
+[7.053s] -- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail
+[7.053s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail/detection__type_support.c
+[7.053s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail/detection__rosidl_typesupport_introspection_c.h
+[7.053s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.053s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/libopencv__rosidl_typesupport_introspection_c.so
+[7.053s] -- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/libopencv__rosidl_typesupport_introspection_c.so" to ""
+[7.053s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/libopencv__rosidl_typesupport_c.so
+[7.054s] -- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/libopencv__rosidl_typesupport_c.so" to ""
+[7.054s] -- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv
+[7.054s] -- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg
+[7.054s] -- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail
+[7.054s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail/detection__rosidl_typesupport_introspection_cpp.hpp
+[7.054s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail/detection__type_support.cpp
+[7.054s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/libopencv__rosidl_typesupport_introspection_cpp.so
+[7.055s] -- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/libopencv__rosidl_typesupport_introspection_cpp.so" to ""
+[7.055s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/libopencv__rosidl_typesupport_cpp.so
+[7.055s] -- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/libopencv__rosidl_typesupport_cpp.so" to ""
+[7.055s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/environment/pythonpath.sh
+[7.055s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/environment/pythonpath.dsv
+[7.055s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv-0.0.0-py3.10.egg-info
+[7.055s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.056s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv-0.0.0-py3.10.egg-info/PKG-INFO
+[7.056s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.056s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv-0.0.0-py3.10.egg-info/top_level.txt
+[7.056s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv
+[7.056s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/_opencv_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.056s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/_opencv_s.ep.rosidl_typesupport_introspection_c.c
+[7.057s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/libopencv__rosidl_generator_py.so
+[7.057s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/opencv_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[7.057s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/opencv_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[7.057s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/_opencv_s.ep.rosidl_typesupport_c.c
+[7.058s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/opencv_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[7.058s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/msg
+[7.058s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/msg/_detection.py
+[7.058s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/msg/_detection_s.c
+[7.060s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/msg/__init__.py
+[7.061s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/__init__.py
+[7.082s] Listing '/home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv'...
+[7.082s] Compiling '/home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/__init__.py'...
+[7.082s] Listing '/home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/msg'...
+[7.082s] Compiling '/home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/msg/__init__.py'...
+[7.082s] Compiling '/home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/msg/_detection.py'...
+[7.085s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/opencv_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[7.086s] -- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/opencv_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[7.086s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/opencv_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[7.086s] -- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/opencv_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[7.086s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/opencv_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[7.086s] -- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/opencv_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[7.086s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/libopencv__rosidl_generator_py.so
+[7.086s] -- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/libopencv__rosidl_generator_py.so" to ""
+[7.087s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/msg/Detection.idl
+[7.087s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/msg/Detection.msg
+[7.087s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/opencv/opencv_detection
+[7.088s] -- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/opencv/opencv_detection" to ""
+[7.088s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/ament_index/resource_index/package_run_dependencies/opencv
+[7.088s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/ament_index/resource_index/parent_prefix_path/opencv
+[7.089s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/environment/ament_prefix_path.sh
+[7.089s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/environment/ament_prefix_path.dsv
+[7.089s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/environment/path.sh
+[7.090s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/environment/path.dsv
+[7.090s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/local_setup.bash
+[7.090s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/local_setup.sh
+[7.090s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/local_setup.zsh
+[7.091s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/local_setup.dsv
+[7.091s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/package.dsv
+[7.091s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/ament_index/resource_index/packages/opencv
+[7.091s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/export_opencv__rosidl_generator_cExport.cmake
+[7.091s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/export_opencv__rosidl_generator_cExport-noconfig.cmake
+[7.091s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/export_opencv__rosidl_typesupport_fastrtps_cExport.cmake
+[7.092s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/export_opencv__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.092s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/export_opencv__rosidl_generator_cppExport.cmake
+[7.092s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/export_opencv__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.092s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/export_opencv__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.093s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/opencv__rosidl_typesupport_introspection_cExport.cmake
+[7.093s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/opencv__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.093s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/opencv__rosidl_typesupport_cExport.cmake
+[7.093s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/opencv__rosidl_typesupport_cExport-noconfig.cmake
+[7.094s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/opencv__rosidl_typesupport_introspection_cppExport.cmake
+[7.094s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/opencv__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.094s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/opencv__rosidl_typesupport_cppExport.cmake
+[7.094s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/opencv__rosidl_typesupport_cppExport-noconfig.cmake
+[7.095s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/export_opencv__rosidl_generator_pyExport.cmake
+[7.095s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/export_opencv__rosidl_generator_pyExport-noconfig.cmake
+[7.095s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/rosidl_cmake-extras.cmake
+[7.095s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.095s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/ament_cmake_export_libraries-extras.cmake
+[7.095s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/ament_cmake_export_targets-extras.cmake
+[7.096s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.096s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.096s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.096s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/opencvConfig.cmake
+[7.096s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/opencvConfig-version.cmake
+[7.097s] -- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/package.xml
+[7.100s] Invoked command in '/home/raurus/Documents/Magang_Banyu/ros2/build/opencv' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/raurus/Documents/Magang_Banyu/ros2/build/opencv

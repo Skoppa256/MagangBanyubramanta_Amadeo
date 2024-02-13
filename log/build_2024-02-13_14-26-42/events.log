@@ -1,0 +1,455 @@
+[0.000000] (-) TimerEvent: {}
+[0.000848] (controller) JobQueued: {'identifier': 'controller', 'dependencies': OrderedDict()}
+[0.000888] (opencv) JobQueued: {'identifier': 'opencv', 'dependencies': OrderedDict()}
+[0.000899] (controller) JobStarted: {'identifier': 'controller'}
+[0.024808] (opencv) JobStarted: {'identifier': 'opencv'}
+[0.048922] (controller) JobProgress: {'identifier': 'controller', 'progress': 'cmake'}
+[0.049540] (controller) JobProgress: {'identifier': 'controller', 'progress': 'build'}
+[0.050058] (controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/raurus/Documents/Magang_Banyu/ros2/build/controller', '--', '-j4', '-l4'], 'cwd': '/home/raurus/Documents/Magang_Banyu/ros2/build/controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'raurus'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/raurus'), ('OLDPWD', '/home/raurus/Documents/Magang_Banyu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1922'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'raurus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'raurus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raurus-ubuntu:@/tmp/.ICE-unix/1899,unix/raurus-ubuntu:/tmp/.ICE-unix/1899'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/eb896baa_823e_4e1d_a8de_4c9e225b5287'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8ZUVI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/raurus/Documents/Magang_Banyu/ros2/build/controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.063286] (opencv) JobProgress: {'identifier': 'opencv', 'progress': 'cmake'}
+[0.063366] (opencv) Command: {'cmd': ['/usr/bin/cmake', '/home/raurus/Documents/Magang_Banyu/ros2/src/opencv', '-DCMAKE_INSTALL_PREFIX=/home/raurus/Documents/Magang_Banyu/ros2/install/opencv'], 'cwd': '/home/raurus/Documents/Magang_Banyu/ros2/build/opencv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'raurus'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/raurus'), ('OLDPWD', '/home/raurus/Documents/Magang_Banyu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1922'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'raurus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'raurus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raurus-ubuntu:@/tmp/.ICE-unix/1899,unix/raurus-ubuntu:/tmp/.ICE-unix/1899'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/eb896baa_823e_4e1d_a8de_4c9e225b5287'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8ZUVI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/raurus/Documents/Magang_Banyu/ros2/build/opencv'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.075740] (opencv) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.097774] (controller) StdoutLine: {'line': b'[  9%] Built target controller__rosidl_generator_c\n'}
+[0.099871] (-) TimerEvent: {}
+[0.113516] (controller) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_copy_controller\n'}
+[0.123622] (controller) StdoutLine: {'line': b'[ 12%] Built target controller__cpp\n'}
+[0.125469] (controller) StdoutLine: {'line': b'[ 21%] Built target controller__rosidl_typesupport_introspection_c\n'}
+[0.129438] (controller) StdoutLine: {'line': b'[ 30%] Built target controller__rosidl_typesupport_fastrtps_c\n'}
+[0.131123] (controller) StdoutLine: {'line': b'[ 39%] Built target controller__rosidl_typesupport_c\n'}
+[0.141193] (controller) StdoutLine: {'line': b'[ 48%] Built target controller__rosidl_typesupport_cpp\n'}
+[0.149928] (controller) StdoutLine: {'line': b'[ 57%] Built target controller__rosidl_typesupport_fastrtps_cpp\n'}
+[0.156072] (controller) StdoutLine: {'line': b'[ 66%] Built target controller__rosidl_typesupport_introspection_cpp\n'}
+[0.157830] (controller) StdoutLine: {'line': b'[ 72%] Built target pub_controller\n'}
+[0.165384] (controller) StdoutLine: {'line': b'[ 72%] Built target controller\n'}
+[0.176300] (controller) StdoutLine: {'line': b'[ 75%] Built target controller__py\n'}
+[0.177004] (opencv) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.187178] (controller) StdoutLine: {'line': b'[ 81%] Built target controller__rosidl_generator_py\n'}
+[0.199978] (-) TimerEvent: {}
+[0.200282] (controller) StdoutLine: {'line': b'[ 87%] Built target controller__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.201904] (controller) StdoutLine: {'line': b'[ 93%] Built target controller__rosidl_typesupport_introspection_c__pyext\n'}
+[0.207803] (controller) StdoutLine: {'line': b'[100%] Built target controller__rosidl_typesupport_c__pyext\n'}
+[0.217892] (opencv) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.240905] (opencv) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.242527] (opencv) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.246651] (opencv) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.254369] (opencv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.265295] (opencv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.274115] (controller) StdoutLine: {'line': b'running egg_info\n'}
+[0.274484] (controller) StdoutLine: {'line': b'writing controller.egg-info/PKG-INFO\n'}
+[0.274694] (controller) StdoutLine: {'line': b'writing dependency_links to controller.egg-info/dependency_links.txt\n'}
+[0.275068] (controller) StdoutLine: {'line': b'writing top-level names to controller.egg-info/top_level.txt\n'}
+[0.276494] (controller) StdoutLine: {'line': b"reading manifest file 'controller.egg-info/SOURCES.txt'\n"}
+[0.276856] (controller) StdoutLine: {'line': b"writing manifest file 'controller.egg-info/SOURCES.txt'\n"}
+[0.291404] (controller) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_controller_egg\n'}
+[0.297495] (controller) CommandEnded: {'returncode': 0}
+[0.300067] (-) TimerEvent: {}
+[0.310729] (opencv) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.311760] (opencv) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.330025] (controller) JobProgress: {'identifier': 'controller', 'progress': 'install'}
+[0.334792] (controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/raurus/Documents/Magang_Banyu/ros2/build/controller'], 'cwd': '/home/raurus/Documents/Magang_Banyu/ros2/build/controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'raurus'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/raurus'), ('OLDPWD', '/home/raurus/Documents/Magang_Banyu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1922'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'raurus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'raurus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raurus-ubuntu:@/tmp/.ICE-unix/1899,unix/raurus-ubuntu:/tmp/.ICE-unix/1899'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/eb896baa_823e_4e1d_a8de_4c9e225b5287'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8ZUVI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/raurus/Documents/Magang_Banyu/ros2/build/controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.345510] (controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.345581] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/ament_index/resource_index/rosidl_interfaces/controller\n'}
+[0.345622] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller\n'}
+[0.345669] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg\n'}
+[0.345699] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/motion.h\n'}
+[0.345725] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.345752] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail\n'}
+[0.345778] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__functions.h\n'}
+[0.345805] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__struct.h\n'}
+[0.345831] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__functions.c\n'}
+[0.345858] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__type_support.h\n'}
+[0.345885] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/environment/library_path.sh\n'}
+[0.345912] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/environment/library_path.dsv\n'}
+[0.345938] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_generator_c.so\n'}
+[0.345964] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller\n'}
+[0.345989] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg\n'}
+[0.346018] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail\n'}
+[0.346044] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__rosidl_typesupport_fastrtps_c.h\n'}
+[0.346070] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.346096] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_typesupport_fastrtps_c.so\n'}
+[0.346122] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller\n'}
+[0.346147] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg\n'}
+[0.346175] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/motion.hpp\n'}
+[0.346201] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail\n'}
+[0.346231] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__traits.hpp\n'}
+[0.346258] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__builder.hpp\n'}
+[0.346284] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__struct.hpp\n'}
+[0.346311] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller\n'}
+[0.346337] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg\n'}
+[0.346362] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.346388] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail\n'}
+[0.346414] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.346439] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/dds_fastrtps\n'}
+[0.346466] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.346509] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller\n'}
+[0.346538] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg\n'}
+[0.346563] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail\n'}
+[0.346590] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__type_support.c\n'}
+[0.346616] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__rosidl_typesupport_introspection_c.h\n'}
+[0.346641] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.346790] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_typesupport_introspection_c.so\n'}
+[0.346902] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_typesupport_c.so\n'}
+[0.346964] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller\n'}
+[0.347109] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg\n'}
+[0.347163] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail\n'}
+[0.347205] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.347239] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/include/controller/controller/msg/detail/motion__type_support.cpp\n'}
+[0.347271] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_typesupport_introspection_cpp.so\n'}
+[0.347302] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_typesupport_cpp.so\n'}
+[0.347330] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/environment/pythonpath.sh\n'}
+[0.347358] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/environment/pythonpath.dsv\n'}
+[0.347385] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info\n'}
+[0.347413] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.347444] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.347472] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.347525] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.347577] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller\n'}
+[0.347608] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.347636] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/_controller_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.347665] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.347695] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/_controller_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.347742] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/_controller_s.ep.rosidl_typesupport_c.c\n'}
+[0.347773] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/msg\n'}
+[0.347819] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/msg/_motion.py\n'}
+[0.347870] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/msg/_motion_s.c\n'}
+[0.347907] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/msg/__init__.py\n'}
+[0.347934] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/libcontroller__rosidl_generator_py.so\n'}
+[0.347962] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.347990] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/__init__.py\n'}
+[0.358272] (controller) StdoutLine: {'line': b"Listing '/home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller'...\n"}
+[0.358399] (controller) StdoutLine: {'line': b"Listing '/home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/msg'...\n"}
+[0.361459] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.361577] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.361733] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/local/lib/python3.10/dist-packages/controller/controller_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[0.361910] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/libcontroller__rosidl_generator_py.so\n'}
+[0.362026] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/msg/Motion.idl\n'}
+[0.362174] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/msg/Motion.msg\n'}
+[0.362251] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/lib/controller/pub_controller\n'}
+[0.362375] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/ament_index/resource_index/package_run_dependencies/controller\n'}
+[0.362429] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/ament_index/resource_index/parent_prefix_path/controller\n'}
+[0.362482] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/environment/ament_prefix_path.sh\n'}
+[0.362522] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/environment/ament_prefix_path.dsv\n'}
+[0.362638] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/environment/path.sh\n'}
+[0.362680] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/environment/path.dsv\n'}
+[0.362734] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/local_setup.bash\n'}
+[0.362791] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/local_setup.sh\n'}
+[0.362845] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/local_setup.zsh\n'}
+[0.362925] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/local_setup.dsv\n'}
+[0.363003] (controller) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/package.dsv\n'}
+[0.363205] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/ament_index/resource_index/packages/controller\n'}
+[0.363264] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/export_controller__rosidl_generator_cExport.cmake\n'}
+[0.363301] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/export_controller__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.363336] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/export_controller__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.363379] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/export_controller__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.363441] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/export_controller__rosidl_generator_cppExport.cmake\n'}
+[0.363483] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/export_controller__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.363566] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/export_controller__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.363609] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/controller__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.363640] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/controller__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.363675] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/controller__rosidl_typesupport_cExport.cmake\n'}
+[0.363785] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/controller__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.363848] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/controller__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.363883] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/controller__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.363953] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/controller__rosidl_typesupport_cppExport.cmake\n'}
+[0.364009] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/controller__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.364049] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/export_controller__rosidl_generator_pyExport.cmake\n'}
+[0.364105] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/export_controller__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.364182] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/rosidl_cmake-extras.cmake\n'}
+[0.364237] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.364285] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.364449] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.364499] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.364536] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.364563] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.364591] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/controllerConfig.cmake\n'}
+[0.364618] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/cmake/controllerConfig-version.cmake\n'}
+[0.364644] (controller) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/controller/share/controller/package.xml\n'}
+[0.365908] (controller) CommandEnded: {'returncode': 0}
+[0.399384] (opencv) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400414] (-) TimerEvent: {}
+[0.482474] (controller) JobEnded: {'identifier': 'controller', 'rc': 0}
+[0.500515] (-) TimerEvent: {}
+[0.528460] (opencv) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.600676] (-) TimerEvent: {}
+[0.649511] (opencv) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.700801] (-) TimerEvent: {}
+[0.801114] (-) TimerEvent: {}
+[0.833695] (opencv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.901479] (-) TimerEvent: {}
+[0.904035] (opencv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.917640] (opencv) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.931568] (opencv) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.931696] (opencv) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.931732] (opencv) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[0.945382] (opencv) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.945761] (opencv) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.945818] (opencv) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.946872] (opencv) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.948118] (opencv) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.948294] (opencv) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.948599] (opencv) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.955064] (opencv) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.978798] (opencv) StdoutLine: {'line': b'-- Generating done\n'}
+[0.980762] (opencv) StdoutLine: {'line': b'-- Build files have been written to: /home/raurus/Documents/Magang_Banyu/ros2/build/opencv\n'}
+[0.986726] (opencv) CommandEnded: {'returncode': 0}
+[0.987245] (opencv) JobProgress: {'identifier': 'opencv', 'progress': 'build'}
+[0.988121] (opencv) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/raurus/Documents/Magang_Banyu/ros2/build/opencv', '--', '-j4', '-l4'], 'cwd': '/home/raurus/Documents/Magang_Banyu/ros2/build/opencv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'raurus'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/raurus'), ('OLDPWD', '/home/raurus/Documents/Magang_Banyu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1922'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'raurus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'raurus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raurus-ubuntu:@/tmp/.ICE-unix/1899,unix/raurus-ubuntu:/tmp/.ICE-unix/1899'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/eb896baa_823e_4e1d_a8de_4c9e225b5287'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8ZUVI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/raurus/Documents/Magang_Banyu/ros2/build/opencv'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.001577] (-) TimerEvent: {}
+[1.008023] (opencv) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.012874] (opencv) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.016345] (opencv) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_opencv\n'}
+[1.101679] (-) TimerEvent: {}
+[1.172049] (opencv) StdoutLine: {'line': b'running egg_info\n'}
+[1.172671] (opencv) StdoutLine: {'line': b'creating opencv.egg-info\n'}
+[1.172942] (opencv) StdoutLine: {'line': b'writing opencv.egg-info/PKG-INFO\n'}
+[1.173146] (opencv) StdoutLine: {'line': b'writing dependency_links to opencv.egg-info/dependency_links.txt\n'}
+[1.173314] (opencv) StdoutLine: {'line': b'writing top-level names to opencv.egg-info/top_level.txt\n'}
+[1.173536] (opencv) StdoutLine: {'line': b"writing manifest file 'opencv.egg-info/SOURCES.txt'\n"}
+[1.174672] (opencv) StdoutLine: {'line': b"reading manifest file 'opencv.egg-info/SOURCES.txt'\n"}
+[1.175146] (opencv) StdoutLine: {'line': b"writing manifest file 'opencv.egg-info/SOURCES.txt'\n"}
+[1.187703] (opencv) StdoutLine: {'line': b'[  6%] Built target opencv__cpp\n'}
+[1.192934] (opencv) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.201789] (-) TimerEvent: {}
+[1.206853] (opencv) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.210290] (opencv) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/opencv__rosidl_generator_c.dir/rosidl_generator_c/opencv/msg/detail/detection__functions.c.o\x1b[0m\n'}
+[1.210587] (opencv) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_build_opencv_egg\n'}
+[1.223452] (opencv) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.301890] (-) TimerEvent: {}
+[1.310846] (opencv) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking C shared library libopencv__rosidl_generator_c.so\x1b[0m\n'}
+[1.330590] (opencv) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/opencv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/opencv/msg/detection__type_support.cpp.o\x1b[0m\n'}
+[1.370217] (opencv) StdoutLine: {'line': b'[ 24%] Built target opencv__rosidl_generator_c\n'}
+[1.375540] (opencv) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/opencv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/opencv/msg/detail/dds_fastrtps/detection__type_support.cpp.o\x1b[0m\n'}
+[1.382291] (opencv) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.402001] (-) TimerEvent: {}
+[1.445662] (opencv) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/opencv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/opencv/msg/detail/detection__type_support.cpp.o\x1b[0m\n'}
+[1.502113] (-) TimerEvent: {}
+[1.543514] (opencv) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking CXX shared library libopencv__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.549099] (opencv) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/opencv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/opencv/msg/detail/detection__type_support_c.cpp.o\x1b[0m\n'}
+[1.567299] (opencv) StdoutLine: {'line': b'[ 39%] Built target opencv__rosidl_typesupport_cpp\n'}
+[1.574243] (opencv) StdoutLine: {'line': b'[ 42%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.602225] (-) TimerEvent: {}
+[1.702714] (-) TimerEvent: {}
+[1.803532] (-) TimerEvent: {}
+[1.810944] (opencv) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libopencv__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.840003] (opencv) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/opencv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/opencv/msg/detail/detection__type_support.c.o\x1b[0m\n'}
+[1.841013] (opencv) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libopencv__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.865093] (opencv) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libopencv__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.882417] (opencv) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking C shared library libopencv__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.900955] (opencv) StdoutLine: {'line': b'[ 57%] Built target opencv__rosidl_typesupport_introspection_c\n'}
+[1.902794] (opencv) StdoutLine: {'line': b'[ 57%] Built target opencv__rosidl_typesupport_fastrtps_cpp\n'}
+[1.903632] (-) TimerEvent: {}
+[1.903793] (opencv) StdoutLine: {'line': b'[ 57%] Built target opencv__rosidl_typesupport_introspection_cpp\n'}
+[1.908214] (opencv) StdoutLine: {'line': b'[ 60%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.912571] (opencv) StdoutLine: {'line': b'[ 60%] Built target opencv__rosidl_typesupport_fastrtps_c\n'}
+[1.917670] (opencv) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/opencv_detection.dir/src/opencv_detection_function.cpp.o\x1b[0m\n'}
+[2.003730] (-) TimerEvent: {}
+[2.039996] (opencv) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/opencv__rosidl_typesupport_c.dir/rosidl_typesupport_c/opencv/msg/detection__type_support.cpp.o\x1b[0m\n'}
+[2.058045] (opencv) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libopencv__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.080527] (opencv) StdoutLine: {'line': b'[ 69%] Built target opencv__rosidl_typesupport_c\n'}
+[2.090227] (opencv) StdoutLine: {'line': b'[ 69%] Built target opencv\n'}
+[2.100518] (opencv) StdoutLine: {'line': b'[ 72%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[2.103818] (-) TimerEvent: {}
+[2.204278] (-) TimerEvent: {}
+[2.278945] (opencv) StdoutLine: {'line': b'[ 72%] Built target opencv__py\n'}
+[2.294641] (opencv) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/opencv__rosidl_generator_py.dir/rosidl_generator_py/opencv/msg/_detection_s.c.o\x1b[0m\n'}
+[2.304378] (-) TimerEvent: {}
+[2.406824] (-) TimerEvent: {}
+[2.500845] (opencv) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/opencv/libopencv__rosidl_generator_py.so\x1b[0m\n'}
+[2.506381] (-) TimerEvent: {}
+[2.540551] (opencv) StdoutLine: {'line': b'[ 78%] Built target opencv__rosidl_generator_py\n'}
+[2.556294] (opencv) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/opencv__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/opencv/_opencv_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[2.556784] (opencv) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/opencv__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/opencv/_opencv_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.579504] (opencv) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/opencv__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/opencv/_opencv_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[2.606584] (-) TimerEvent: {}
+[2.660236] (opencv) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/opencv/opencv_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[2.668661] (opencv) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/opencv/opencv_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[2.697207] (opencv) StdoutLine: {'line': b'[ 93%] Built target opencv__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.698540] (opencv) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/opencv/opencv_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[2.701852] (opencv) StdoutLine: {'line': b'[ 96%] Built target opencv__rosidl_typesupport_introspection_c__pyext\n'}
+[2.706687] (-) TimerEvent: {}
+[2.717272] (opencv) StdoutLine: {'line': b'[ 96%] Built target opencv__rosidl_typesupport_c__pyext\n'}
+[2.806826] (-) TimerEvent: {}
+[2.907220] (-) TimerEvent: {}
+[3.007601] (-) TimerEvent: {}
+[3.107920] (-) TimerEvent: {}
+[3.208303] (-) TimerEvent: {}
+[3.308724] (-) TimerEvent: {}
+[3.409156] (-) TimerEvent: {}
+[3.509478] (-) TimerEvent: {}
+[3.610144] (-) TimerEvent: {}
+[3.711216] (-) TimerEvent: {}
+[3.811542] (-) TimerEvent: {}
+[3.912952] (-) TimerEvent: {}
+[4.013262] (-) TimerEvent: {}
+[4.113543] (-) TimerEvent: {}
+[4.216734] (-) TimerEvent: {}
+[4.321603] (-) TimerEvent: {}
+[4.421947] (-) TimerEvent: {}
+[4.522345] (-) TimerEvent: {}
+[4.622696] (-) TimerEvent: {}
+[4.723140] (-) TimerEvent: {}
+[4.827169] (-) TimerEvent: {}
+[4.927542] (-) TimerEvent: {}
+[5.027935] (-) TimerEvent: {}
+[5.128281] (-) TimerEvent: {}
+[5.228642] (-) TimerEvent: {}
+[5.340922] (-) TimerEvent: {}
+[5.441324] (-) TimerEvent: {}
+[5.541728] (-) TimerEvent: {}
+[5.642334] (-) TimerEvent: {}
+[5.742715] (-) TimerEvent: {}
+[5.843089] (-) TimerEvent: {}
+[5.944456] (-) TimerEvent: {}
+[6.045520] (-) TimerEvent: {}
+[6.145781] (-) TimerEvent: {}
+[6.246719] (-) TimerEvent: {}
+[6.347466] (-) TimerEvent: {}
+[6.447776] (-) TimerEvent: {}
+[6.548165] (-) TimerEvent: {}
+[6.584980] (opencv) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable opencv_detection\x1b[0m\n'}
+[6.648312] (-) TimerEvent: {}
+[6.748642] (-) TimerEvent: {}
+[6.849122] (-) TimerEvent: {}
+[6.949724] (-) TimerEvent: {}
+[7.023180] (opencv) StdoutLine: {'line': b'[100%] Built target opencv_detection\n'}
+[7.033557] (opencv) CommandEnded: {'returncode': 0}
+[7.050012] (-) TimerEvent: {}
+[7.067912] (opencv) JobProgress: {'identifier': 'opencv', 'progress': 'install'}
+[7.067962] (opencv) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/raurus/Documents/Magang_Banyu/ros2/build/opencv'], 'cwd': '/home/raurus/Documents/Magang_Banyu/ros2/build/opencv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'raurus'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/raurus'), ('OLDPWD', '/home/raurus/Documents/Magang_Banyu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1922'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'raurus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'raurus'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/raurus-ubuntu:@/tmp/.ICE-unix/1899,unix/raurus-ubuntu:/tmp/.ICE-unix/1899'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/eb896baa_823e_4e1d_a8de_4c9e225b5287'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8ZUVI2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.133'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/raurus/Documents/Magang_Banyu/ros2/build/opencv'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.072215] (opencv) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.072795] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/ament_index/resource_index/rosidl_interfaces/opencv\n'}
+[7.072974] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv\n'}
+[7.073104] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg\n'}
+[7.073198] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.073231] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detection.h\n'}
+[7.073514] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail\n'}
+[7.073671] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail/detection__functions.c\n'}
+[7.073709] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail/detection__functions.h\n'}
+[7.073744] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail/detection__type_support.h\n'}
+[7.073779] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail/detection__struct.h\n'}
+[7.074199] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/environment/library_path.sh\n'}
+[7.074629] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/environment/library_path.dsv\n'}
+[7.074905] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/libopencv__rosidl_generator_c.so\n'}
+[7.075198] (opencv) StdoutLine: {'line': b'-- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/libopencv__rosidl_generator_c.so" to ""\n'}
+[7.075487] (opencv) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv\n'}
+[7.075552] (opencv) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg\n'}
+[7.075597] (opencv) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail\n'}
+[7.075637] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail/detection__rosidl_typesupport_fastrtps_c.h\n'}
+[7.075722] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.075774] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/libopencv__rosidl_typesupport_fastrtps_c.so\n'}
+[7.075849] (opencv) StdoutLine: {'line': b'-- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/libopencv__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.076807] (opencv) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv\n'}
+[7.076888] (opencv) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg\n'}
+[7.076932] (opencv) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail\n'}
+[7.076962] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail/detection__builder.hpp\n'}
+[7.076990] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail/detection__struct.hpp\n'}
+[7.077019] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail/detection__traits.hpp\n'}
+[7.077051] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detection.hpp\n'}
+[7.077083] (opencv) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv\n'}
+[7.077110] (opencv) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg\n'}
+[7.077165] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.077195] (opencv) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail\n'}
+[7.077258] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail/dds_fastrtps\n'}
+[7.077336] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail/detection__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.077401] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/libopencv__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.077545] (opencv) StdoutLine: {'line': b'-- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/libopencv__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.077578] (opencv) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv\n'}
+[7.077607] (opencv) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg\n'}
+[7.077726] (opencv) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail\n'}
+[7.077767] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail/detection__type_support.c\n'}
+[7.077798] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail/detection__rosidl_typesupport_introspection_c.h\n'}
+[7.077913] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.077997] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/libopencv__rosidl_typesupport_introspection_c.so\n'}
+[7.078204] (opencv) StdoutLine: {'line': b'-- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/libopencv__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.078282] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/libopencv__rosidl_typesupport_c.so\n'}
+[7.078452] (opencv) StdoutLine: {'line': b'-- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/libopencv__rosidl_typesupport_c.so" to ""\n'}
+[7.078489] (opencv) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv\n'}
+[7.078561] (opencv) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg\n'}
+[7.078609] (opencv) StdoutLine: {'line': b'-- Up-to-date: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail\n'}
+[7.078645] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail/detection__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.078928] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/include/opencv/opencv/msg/detail/detection__type_support.cpp\n'}
+[7.079256] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/libopencv__rosidl_typesupport_introspection_cpp.so\n'}
+[7.079423] (opencv) StdoutLine: {'line': b'-- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/libopencv__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.079521] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/libopencv__rosidl_typesupport_cpp.so\n'}
+[7.079633] (opencv) StdoutLine: {'line': b'-- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/libopencv__rosidl_typesupport_cpp.so" to ""\n'}
+[7.079781] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/environment/pythonpath.sh\n'}
+[7.079886] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/environment/pythonpath.dsv\n'}
+[7.080070] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv-0.0.0-py3.10.egg-info\n'}
+[7.080182] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.080330] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[7.080482] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.080738] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[7.080853] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv\n'}
+[7.080971] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/_opencv_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.081063] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/_opencv_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.081423] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/libopencv__rosidl_generator_py.so\n'}
+[7.081505] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/opencv_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.081813] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/opencv_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.082109] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/_opencv_s.ep.rosidl_typesupport_c.c\n'}
+[7.082405] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/opencv_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.082619] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/msg\n'}
+[7.082688] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/msg/_detection.py\n'}
+[7.082882] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/msg/_detection_s.c\n'}
+[7.085171] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/msg/__init__.py\n'}
+[7.085280] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/__init__.py\n'}
+[7.106704] (opencv) StdoutLine: {'line': b"Listing '/home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv'...\n"}
+[7.106840] (opencv) StdoutLine: {'line': b"Compiling '/home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/__init__.py'...\n"}
+[7.106877] (opencv) StdoutLine: {'line': b"Listing '/home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/msg'...\n"}
+[7.106910] (opencv) StdoutLine: {'line': b"Compiling '/home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/msg/__init__.py'...\n"}
+[7.106939] (opencv) StdoutLine: {'line': b"Compiling '/home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/msg/_detection.py'...\n"}
+[7.110213] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/opencv_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.110372] (opencv) StdoutLine: {'line': b'-- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/opencv_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[7.110497] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/opencv_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.110669] (opencv) StdoutLine: {'line': b'-- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/opencv_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[7.110795] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/opencv_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[7.110930] (opencv) StdoutLine: {'line': b'-- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/opencv/local/lib/python3.10/dist-packages/opencv/opencv_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[7.111005] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/libopencv__rosidl_generator_py.so\n'}
+[7.111271] (opencv) StdoutLine: {'line': b'-- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/libopencv__rosidl_generator_py.so" to ""\n'}
+[7.111363] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/msg/Detection.idl\n'}
+[7.111931] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/msg/Detection.msg\n'}
+[7.112029] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/opencv/opencv_detection\n'}
+[7.112833] (opencv) StdoutLine: {'line': b'-- Set runtime path of "/home/raurus/Documents/Magang_Banyu/ros2/install/opencv/lib/opencv/opencv_detection" to ""\n'}
+[7.112957] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/ament_index/resource_index/package_run_dependencies/opencv\n'}
+[7.113211] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/ament_index/resource_index/parent_prefix_path/opencv\n'}
+[7.113417] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/environment/ament_prefix_path.sh\n'}
+[7.113740] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/environment/ament_prefix_path.dsv\n'}
+[7.113916] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/environment/path.sh\n'}
+[7.114403] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/environment/path.dsv\n'}
+[7.114518] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/local_setup.bash\n'}
+[7.114732] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/local_setup.sh\n'}
+[7.115170] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/local_setup.zsh\n'}
+[7.115297] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/local_setup.dsv\n'}
+[7.115451] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/package.dsv\n'}
+[7.115652] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/ament_index/resource_index/packages/opencv\n'}
+[7.115775] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/export_opencv__rosidl_generator_cExport.cmake\n'}
+[7.115942] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/export_opencv__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.116153] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/export_opencv__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.116296] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/export_opencv__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.116604] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/export_opencv__rosidl_generator_cppExport.cmake\n'}
+[7.116831] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/export_opencv__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.117076] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/export_opencv__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.117311] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/opencv__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.117580] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/opencv__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.117772] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/opencv__rosidl_typesupport_cExport.cmake\n'}
+[7.118116] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/opencv__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.118373] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/opencv__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.118712] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/opencv__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.118813] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/opencv__rosidl_typesupport_cppExport.cmake\n'}
+[7.119118] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/opencv__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.119292] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/export_opencv__rosidl_generator_pyExport.cmake\n'}
+[7.119471] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/export_opencv__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.119637] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/rosidl_cmake-extras.cmake\n'}
+[7.119772] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.119916] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.120121] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.120369] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.120544] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.120697] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.120863] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/opencvConfig.cmake\n'}
+[7.121117] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/cmake/opencvConfig-version.cmake\n'}
+[7.121298] (opencv) StdoutLine: {'line': b'-- Installing: /home/raurus/Documents/Magang_Banyu/ros2/install/opencv/share/opencv/package.xml\n'}
+[7.123725] (opencv) CommandEnded: {'returncode': 0}
+[7.150776] (-) TimerEvent: {}
+[7.251656] (-) TimerEvent: {}
+[7.256968] (opencv) JobEnded: {'identifier': 'opencv', 'rc': 0}
+[7.258082] (-) EventReactorShutdown: {}
